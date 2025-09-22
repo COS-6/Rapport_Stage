@@ -22,16 +22,16 @@ clear all
 set more off
 set maxvar 32000
 
-cd "C:\AS2_2024-2025\Semestre 2\Rapport_Stage_2024_2025_Cheikh_Oumar_SAKHO\EHCVM_2021\Fichiers_Menage&Individus\Fichiers_Menage&Individus"
+*cd "C:\AS2_2024-2025\Semestre 2\Rapport_Stage_2024_2025_Cheikh_Oumar_SAKHO\EHCVM_2021\Fichiers_Menage&Individus\Fichiers_Menage&Individus"
 
-use "s11_me_SEN2021"
+*use "s11_me_SEN2021"
 
 /*==============================================================================
 CONFIGURATION ET IMPORTATION DES DONNEES
 ==============================================================================*/
-*global path "https://raw.githubusercontent.com/COS-6/Rapport_Stage/main/EHCVM_2021/Fichiers_Menage&Individus/Fichiers_Menage&Individus"
+global path "https://raw.githubusercontent.com/COS-6/Rapport_Stage/main/EHCVM_2021/Fichiers_Menage&Individus/Fichiers_Menage&Individus"
 
-*use "${path}/s11_me_SEN2021.dta", clear
+use "${path}/s11_me_SEN2021.dta", clear
 
 /*==============================================================================
 DETERMINATION DES DIMENTIONONS ET VARIABLES DE L'INDICATEUR ==============================================================================*/
